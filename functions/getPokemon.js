@@ -170,7 +170,7 @@ function setPokemon(data) {
     typeDivElement.classList.add("type-div");
 
     let typeElement = document.createElement("img");
-    typeElement.src = `/icons/${type.type.name}.svg`;
+    typeElement.src = `https://github.com/BrandonTraviss/Pokedex/blob/main/icons/${type.type.name}.svg`;
 
     let typeTextElement = document.createElement("p");
     typeTextElement.classList.add("type");
@@ -198,7 +198,7 @@ function setWeakness(data) {
     typeDivElement.classList.add("type-div");
 
     let typeElement = document.createElement("img");
-    typeElement.src = `/icons/${type}.svg`;
+    typeElement.src = `https://github.com/BrandonTraviss/Pokedex/blob/main/icons/${type}.svg`;
 
     let typeTextElement = document.createElement("p");
     typeTextElement.classList.add("type");
@@ -223,7 +223,7 @@ function setStrength(data) {
     typeDivElement.classList.add("type-div");
 
     let typeElement = document.createElement("img");
-    typeElement.src = `/icons/${type}.svg`;
+    typeElement.src = `https://github.com/BrandonTraviss/Pokedex/blob/main/icons/${type}.svg`;
 
     let typeTextElement = document.createElement("p");
     typeTextElement.classList.add("type");
@@ -248,7 +248,7 @@ function setImmune(data) {
     typeDivElement.classList.add("type-div");
 
     let typeElement = document.createElement("img");
-    typeElement.src = `/icons/${type}.svg`;
+    typeElement.src = `https://github.com/BrandonTraviss/Pokedex/blob/main/icons/${type}.svg`;
 
     let typeTextElement = document.createElement("p");
     typeTextElement.classList.add("type");
