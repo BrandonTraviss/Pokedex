@@ -1,0 +1,95 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button {
+    padding: 5px;
+}
+.pokedex-main-div {
+    display: flex;
+    padding-top: 2rem;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    min-height: 100vh;
+    width: 100vw;
+    background-color: rgb(156, 0, 0);
+}
+.pokedex-window {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(10, 96, 255);
+}
+.pokemon-img {
+    image-rendering: pixelated;
+    width: 250px;
+    height: 250px;
+}
+.pokemon-info-div{
+    display: grid;
+    gap: 27px;
+    grid-template-columns: repeat(3,1fr);
+    background: rgb(3, 18, 158);
+}
+.pokemon-weakness-div{
+    display: grid;
+    gap: 27px;
+    grid-template-columns: repeat(3,1fr);
+    background: rgb(4, 13, 92);
+}
+.pokemon-immune-div{
+    display: grid;
+    gap: 27px;
+    grid-template-columns: repeat(3,1fr);
+    background: rgb(65, 84, 255);
+}
+.pokemon-strength-div{
+    display: grid;
+    gap: 27px;
+    grid-template-columns: repeat(3,1fr);
+    background: rgb(106, 121, 255);
+}
+.pokemon-search {
+    font-size: 16px;
+    padding: .25rem;
+    margin-block: 1rem;
+}
+.type-small{
+    margin: 1rem;
+    width: 50px;
+}
+.type-div{
+    color: white;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.type{
+    font-weight: bold;
+}
+.pokemon-name{
+    color: white;
+    font-size: xx-large;
+    margin-bottom: 1rem;
+}
+.types-head {
+    text-align: center;
+}
+
+.label {
+    padding: 5px;
+    margin-top: 10px;
+    width: 300px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}

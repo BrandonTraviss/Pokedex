@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script type="module" src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+</head>
+
+<body>
+    <div class="pokedex-main-div">
+        <p class="pokemon-name" id="pokemon-name">Pokemon</p>
+        <div class="pokedex-window">
+            <img id="pokemon-img" class="pokemon-img"
+                src="https://cdn.pixabay.com/photo/2016/07/23/13/18/pokemon-1536849_1280.png" alt="">
+        </div>
+
+        <div class="pokemon-form" id="pokemon-form">
+            <input class="pokemon-search" id="pokemon-search-input" type="text">
+            <button type="button" id="search-button">Search</button>
+            <button type="button" id="random-button">Random</button>
+        </div>
+        <p class="label">Type</p>
+        <div class="pokemon-info-div" id="pokemon-info-div">
+        </div>
+        <p class="label">Weakness</p>
+        <div class="pokemon-weakness-div" id="pokemon-weakness-div">
+        </div>
+        <p class="label">Strong Defense</p>
+        <div class="pokemon-strength-div" id="pokemon-strength-div">
+        </div>
+        <p class="label">Immune</p>
+        <div class="pokemon-immune-div" id="pokemon-immune-div">
+        </div>
+    </div>
+</body>
+
+</html>
